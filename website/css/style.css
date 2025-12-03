@@ -1,0 +1,90 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.bg{
+    height: 100vh;
+    background: #cfc2c2;
+    background: linear-gradient(155deg, rgba(207, 194, 194, 1) 69%, rgba(162, 87, 194, 1) 75%);
+    background-position: center;
+    background-size: cover;
+}
+
+.topbar{
+    background: transparent;
+    backdrop-filter: blur(60px);
+}
+
+.speaceline{
+    width: 100%;
+    height: 10px;   
+}
+
+.sp{
+    margin-right: 150px;
+}
+
+.text-logo{
+    width: 520px;
+    height: auto;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.HLCA{
+    color: black;
+    width: 200px;
+    height: auto;
+    font-size: 900;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.home{
+    padding: 10px;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.marquee{
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+}
+
+.icon{
+    margin: 50px 0px 0px 50px;
+    font-size: 75px;
+}
+
+.solutions{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color:blueviolet;
+}
+
+.img{
+    float: right;
+    padding-right: 500px;
+}
+
+.text{
+    padding-top: 10px;
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text u{
+    color: chocolate;
+}
+
+.lorem{
+    padding-top: 20px;
+    margin-left: 50px;
+    font-size: 17px;
+}
