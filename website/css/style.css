@@ -1,4 +1,4 @@
-*{
+    *{
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -36,9 +36,14 @@
     color: black;
     width: 200px;
     height: auto;
-    font-size: 900;
     font-size: 23px;
     cursor: pointer;
+}
+
+.HLCA:hover{
+    
+    font-weight: 600;
+    font-size: 28px;
 }
 
 .home{
@@ -58,6 +63,7 @@
 .icon{
     margin: 50px 0px 0px 50px;
     font-size: 75px;
+    display: inline-block;
 }
 
 .solutions{
@@ -68,8 +74,8 @@
 }
 
 .img{
-    float: right;
-    padding-right: 500px;
+    
+    margin-right: 30px;
 }
 
 .text{
@@ -88,3 +94,18 @@
     margin-left: 50px;
     font-size: 17px;
 }
+.s-button{
+    width: 83px;
+    height: auto;
+    cursor: pointer;
+    padding: 6px;
+    margin: 20px 0px 0px 50px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+}
+
+.s-button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
